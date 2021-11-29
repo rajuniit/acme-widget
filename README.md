@@ -4,13 +4,13 @@ You need to install `docker` and `docker-compose`in your machine before running 
 
 ###Just Run Following command after installing docker and docker-compose
 
-##To Execute the Code
+## To Execute the Code
 1. `docker-compose build`
 2. `docker-compose up -d`
 3. `docker-compose exec app php cli.php`
 
 
-###Functional Requirements
+### Functional Requirements
 
     1. Product Listing
     2. Add/Remove product into cart
@@ -18,14 +18,14 @@ You need to install `docker` and `docker-compose`in your machine before running 
     4. View cart
     5. Calculate delivery charge and Apply any special offer available for any product
 
-###Non-Functional Requirements
+### Non-Functional Requirements
 
     Low Latency
     Highly available
     Highly Consistent
 
 
-###Out of Scope(Assumption)
+### Out of Scope(Assumption)
 
     Actual Payment
     Storage System
@@ -39,7 +39,7 @@ You need to install `docker` and `docker-compose`in your machine before running 
 
 
 
-###Requirement Analysis
+### Requirement Analysis
 
     Product
         -> code
@@ -55,7 +55,7 @@ You need to install `docker` and `docker-compose`in your machine before running 
         -> Buy one red widget then get another one half of price
 
 
-###Scaling Business
+### Scaling Business
 
 We need to make the following things flexible enough so that clients extend it.
     
@@ -63,7 +63,7 @@ We need to make the following things flexible enough so that clients extend it.
 2. Add Offer
 
 
-###Scaling System
+### Scaling System
 
 Though premature scalability is not right. We should optimize and scale our system based on production experience. 
 But we need to make our system architecture ready so that we can scale whenever we want.
